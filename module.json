@@ -1,0 +1,55 @@
+{
+  "id": "pf2e-vyklades-artifact-sage-zinneryte",
+  "title": "PF2E Vyklade's Artifact Sage (By Zinneryte)",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "flags": {
+    "pf2e-vyklades-artifact-sage-zinneryte": {
+      "pf2e-homebrew": {
+        "featTraits": {
+			"sage":{
+				"label": "Sage",
+				"description": "This indicates feats from the Artifact Sage subclass."
+			}
+		},
+		  "spellTraits": {
+          "sage": {
+            "label": "Sage",
+            "description": "This indicates spells from the Artifact Sage subclass."
+          }
+		  },
+		  "baseWeapons": {
+			  "noulith": "Noulith"
+		  },
+		  "weaponGroups": {
+			  "noulith": "Noulith"
+		  },
+		  "weaponCategories": {
+			  "sage-arms": "Sage Arms"
+		  },
+		  "weaponTraits": {
+			 "sage": {
+				"label": "Sage",
+				"description": "This indicates weapons for the Artifact Sage subclass."
+			 }
+		  }
+	  }
+	}
+  },
+  "packs": [
+    {
+      "name": "pf2e-artifact-sage",
+      "label": "Artifact Sage",
+      "path": "packs/pf2e-artifact-sage",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
