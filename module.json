@@ -1,7 +1,7 @@
 {
   "id": "pf2e-vyklades-artifact-sage-zinneryte",
   "title": "PF2E Vyklade's Artifact Sage (By Zinneryte)",
-  "version": "1.0.0",
+  "version": "1.5",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -51,5 +51,7 @@
         "ASSISTANT": "OWNER"
       }
     }
-  ]
+  ],
+  "manifest": "https://raw.githubusercontent.com/ZzinnerGamer/pf2e-vyklades-artifact-sage-zinneryte/master/module.json",
+  "download": "https://github.com/ZzinnerGamer/pf2e-vyklades-artifact-sage-zinneryte/archive/refs/heads/main.zip"
 }
